@@ -32,7 +32,7 @@ make
 ./client 127.0.0.1 9190
 ```
 
-# Test
+# Test Server
 <div align=center>
 <img src="https://github.com/liujf69/YoloV5-Server/blob/main/test_server.png"/>
 </div>
