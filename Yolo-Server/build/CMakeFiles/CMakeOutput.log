@@ -1,0 +1,1245 @@
+The system is: Linux - 5.15.0-83-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c56ad/fast && /usr/bin/make -f CMakeFiles/cmTC_c56ad.dir/build.make CMakeFiles/cmTC_c56ad.dir/build
+make[1]: Entering directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c56ad.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c56ad.dir/testCCompiler.c.o   -c /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c56ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c56ad.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c56ad.dir/testCCompiler.c.o  -o cmTC_c56ad 
+make[1]: Leaving directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_829b0/fast && /usr/bin/make -f CMakeFiles/cmTC_829b0.dir/build.make CMakeFiles/cmTC_829b0.dir/build
+make[1]: Entering directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc0gEsI2.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o /tmp/cc0gEsI2.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_829b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_829b0.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o  -o cmTC_829b0 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_829b0' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF5TQ2w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_829b0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.3/bin -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_829b0' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_829b0/fast && /usr/bin/make -f CMakeFiles/cmTC_829b0.dir/build.make CMakeFiles/cmTC_829b0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc0gEsI2.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o /tmp/cc0gEsI2.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_829b0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_829b0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o  -o cmTC_829b0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_829b0' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccF5TQ2w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_829b0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.3/bin -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccF5TQ2w.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_829b0] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/home/liujinfu/anaconda3/bin/../lib] ==> dir [/home/liujinfu/anaconda3/bin/../lib]
+    arg [-L/home/liujinfu/anaconda3/condabin/../lib] ==> dir [/home/liujinfu/anaconda3/condabin/../lib]
+    arg [-L/usr/local/sbin/../lib] ==> dir [/usr/local/sbin/../lib]
+    arg [-L/usr/local/bin/../lib] ==> dir [/usr/local/bin/../lib]
+    arg [-L/usr/sbin/../lib] ==> dir [/usr/sbin/../lib]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/sbin/../lib] ==> dir [/sbin/../lib]
+    arg [-L/bin/../lib] ==> dir [/bin/../lib]
+    arg [-L/usr/games/../lib] ==> dir [/usr/games/../lib]
+    arg [-L/usr/local/games/../lib] ==> dir [/usr/local/games/../lib]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib]
+    arg [-L/home/liujinfu/anaconda3/bin/../lib] ==> dir [/home/liujinfu/anaconda3/bin/../lib]
+    arg [-L/home/liujinfu/anaconda3/condabin/../lib] ==> dir [/home/liujinfu/anaconda3/condabin/../lib]
+    arg [-L/usr/local/sbin/../lib] ==> dir [/usr/local/sbin/../lib]
+    arg [-L/usr/local/bin/../lib] ==> dir [/usr/local/bin/../lib]
+    arg [-L/usr/sbin/../lib] ==> dir [/usr/sbin/../lib]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/sbin/../lib] ==> dir [/sbin/../lib]
+    arg [-L/bin/../lib] ==> dir [/bin/../lib]
+    arg [-L/usr/games/../lib] ==> dir [/usr/games/../lib]
+    arg [-L/usr/local/games/../lib] ==> dir [/usr/local/games/../lib]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/cuda-11.3/bin] ==> dir [/usr/local/cuda-11.3/bin]
+    arg [-L/usr/local/cuda-11.3/bin] ==> dir [/usr/local/cuda-11.3/bin]
+    arg [-L/home/liujinfu/anaconda3/bin] ==> dir [/home/liujinfu/anaconda3/bin]
+    arg [-L/home/liujinfu/anaconda3/condabin] ==> dir [/home/liujinfu/anaconda3/condabin]
+    arg [-L/usr/local/sbin] ==> dir [/usr/local/sbin]
+    arg [-L/usr/local/bin] ==> dir [/usr/local/bin]
+    arg [-L/usr/sbin] ==> dir [/usr/sbin]
+    arg [-L/usr/bin] ==> dir [/usr/bin]
+    arg [-L/sbin] ==> dir [/sbin]
+    arg [-L/bin] ==> dir [/bin]
+    arg [-L/usr/games] ==> dir [/usr/games]
+    arg [-L/usr/local/games] ==> dir [/usr/local/games]
+    arg [-L/snap/bin] ==> dir [/snap/bin]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/local/cuda-11.3/bin] ==> dir [/usr/local/cuda-11.3/bin]
+    arg [-L/home/liujinfu/anaconda3/bin] ==> dir [/home/liujinfu/anaconda3/bin]
+    arg [-L/home/liujinfu/anaconda3/condabin] ==> dir [/home/liujinfu/anaconda3/condabin]
+    arg [-L/usr/local/sbin] ==> dir [/usr/local/sbin]
+    arg [-L/usr/local/bin] ==> dir [/usr/local/bin]
+    arg [-L/usr/sbin] ==> dir [/usr/sbin]
+    arg [-L/usr/bin] ==> dir [/usr/bin]
+    arg [-L/sbin] ==> dir [/sbin]
+    arg [-L/bin] ==> dir [/bin]
+    arg [-L/usr/games] ==> dir [/usr/games]
+    arg [-L/usr/local/games] ==> dir [/usr/local/games]
+    arg [-L/snap/bin] ==> dir [/snap/bin]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+    arg [-L.] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_829b0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/home/liujinfu/anaconda3/bin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/home/liujinfu/anaconda3/condabin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/usr/local/sbin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/bin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/sbin/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/sbin/../lib] ==> [/lib]
+  collapse library dir [/bin/../lib] ==> [/lib]
+  collapse library dir [/usr/games/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/games/../lib] ==> [/usr/local/lib]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/home/liujinfu/anaconda3/bin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/home/liujinfu/anaconda3/condabin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/usr/local/sbin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/bin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/sbin/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/sbin/../lib] ==> [/lib]
+  collapse library dir [/bin/../lib] ==> [/lib]
+  collapse library dir [/usr/games/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/games/../lib] ==> [/usr/local/lib]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11.3/bin] ==> [/usr/local/cuda-11.3/bin]
+  collapse library dir [/usr/local/cuda-11.3/bin] ==> [/usr/local/cuda-11.3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/bin] ==> [/home/liujinfu/anaconda3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/condabin] ==> [/home/liujinfu/anaconda3/condabin]
+  collapse library dir [/usr/local/sbin] ==> [/usr/local/sbin]
+  collapse library dir [/usr/local/bin] ==> [/usr/local/bin]
+  collapse library dir [/usr/sbin] ==> [/usr/sbin]
+  collapse library dir [/usr/bin] ==> [/usr/bin]
+  collapse library dir [/sbin] ==> [/sbin]
+  collapse library dir [/bin] ==> [/bin]
+  collapse library dir [/usr/games] ==> [/usr/games]
+  collapse library dir [/usr/local/games] ==> [/usr/local/games]
+  collapse library dir [/snap/bin] ==> [/snap/bin]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/usr/local/cuda-11.3/bin] ==> [/usr/local/cuda-11.3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/bin] ==> [/home/liujinfu/anaconda3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/condabin] ==> [/home/liujinfu/anaconda3/condabin]
+  collapse library dir [/usr/local/sbin] ==> [/usr/local/sbin]
+  collapse library dir [/usr/local/bin] ==> [/usr/local/bin]
+  collapse library dir [/usr/sbin] ==> [/usr/sbin]
+  collapse library dir [/usr/bin] ==> [/usr/bin]
+  collapse library dir [/sbin] ==> [/sbin]
+  collapse library dir [/bin] ==> [/bin]
+  collapse library dir [/usr/games] ==> [/usr/games]
+  collapse library dir [/usr/local/games] ==> [/usr/local/games]
+  collapse library dir [/snap/bin] ==> [/snap/bin]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/liujinfu/anaconda3/lib;/usr/local/lib;/usr/lib;/lib;/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/usr/local/cuda-11.3/bin;/home/liujinfu/anaconda3/bin;/home/liujinfu/anaconda3/condabin;/usr/local/sbin;/usr/local/bin;/usr/sbin;/usr/bin;/sbin;/bin;/usr/games;/usr/local/games;/snap/bin]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e3d20/fast && /usr/bin/make -f CMakeFiles/cmTC_e3d20.dir/build.make CMakeFiles/cmTC_e3d20.dir/build
+make[1]: Entering directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e3d20.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e3d20.dir/testCXXCompiler.cxx.o -c /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e3d20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3d20.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e3d20.dir/testCXXCompiler.cxx.o  -o cmTC_e3d20 
+make[1]: Leaving directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52b50/fast && /usr/bin/make -f CMakeFiles/cmTC_52b50.dir/build.make CMakeFiles/cmTC_52b50.dir/build
+make[1]: Entering directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccvuoYxp.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvuoYxp.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_52b50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52b50.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_52b50 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52b50' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cczlCKNT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_52b50 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.3/bin -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52b50' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_52b50/fast && /usr/bin/make -f CMakeFiles/cmTC_52b50.dir/build.make CMakeFiles/cmTC_52b50.dir/build]
+  ignore line: [make[1]: Entering directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccvuoYxp.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvuoYxp.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_52b50]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52b50.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_52b50 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52b50' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cczlCKNT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_52b50 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.3/bin -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczlCKNT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_52b50] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/home/liujinfu/anaconda3/bin/../lib] ==> dir [/home/liujinfu/anaconda3/bin/../lib]
+    arg [-L/home/liujinfu/anaconda3/condabin/../lib] ==> dir [/home/liujinfu/anaconda3/condabin/../lib]
+    arg [-L/usr/local/sbin/../lib] ==> dir [/usr/local/sbin/../lib]
+    arg [-L/usr/local/bin/../lib] ==> dir [/usr/local/bin/../lib]
+    arg [-L/usr/sbin/../lib] ==> dir [/usr/sbin/../lib]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/sbin/../lib] ==> dir [/sbin/../lib]
+    arg [-L/bin/../lib] ==> dir [/bin/../lib]
+    arg [-L/usr/games/../lib] ==> dir [/usr/games/../lib]
+    arg [-L/usr/local/games/../lib] ==> dir [/usr/local/games/../lib]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib]
+    arg [-L/home/liujinfu/anaconda3/bin/../lib] ==> dir [/home/liujinfu/anaconda3/bin/../lib]
+    arg [-L/home/liujinfu/anaconda3/condabin/../lib] ==> dir [/home/liujinfu/anaconda3/condabin/../lib]
+    arg [-L/usr/local/sbin/../lib] ==> dir [/usr/local/sbin/../lib]
+    arg [-L/usr/local/bin/../lib] ==> dir [/usr/local/bin/../lib]
+    arg [-L/usr/sbin/../lib] ==> dir [/usr/sbin/../lib]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/sbin/../lib] ==> dir [/sbin/../lib]
+    arg [-L/bin/../lib] ==> dir [/bin/../lib]
+    arg [-L/usr/games/../lib] ==> dir [/usr/games/../lib]
+    arg [-L/usr/local/games/../lib] ==> dir [/usr/local/games/../lib]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/cuda-11.3/bin] ==> dir [/usr/local/cuda-11.3/bin]
+    arg [-L/usr/local/cuda-11.3/bin] ==> dir [/usr/local/cuda-11.3/bin]
+    arg [-L/home/liujinfu/anaconda3/bin] ==> dir [/home/liujinfu/anaconda3/bin]
+    arg [-L/home/liujinfu/anaconda3/condabin] ==> dir [/home/liujinfu/anaconda3/condabin]
+    arg [-L/usr/local/sbin] ==> dir [/usr/local/sbin]
+    arg [-L/usr/local/bin] ==> dir [/usr/local/bin]
+    arg [-L/usr/sbin] ==> dir [/usr/sbin]
+    arg [-L/usr/bin] ==> dir [/usr/bin]
+    arg [-L/sbin] ==> dir [/sbin]
+    arg [-L/bin] ==> dir [/bin]
+    arg [-L/usr/games] ==> dir [/usr/games]
+    arg [-L/usr/local/games] ==> dir [/usr/local/games]
+    arg [-L/snap/bin] ==> dir [/snap/bin]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/local/cuda-11.3/bin] ==> dir [/usr/local/cuda-11.3/bin]
+    arg [-L/home/liujinfu/anaconda3/bin] ==> dir [/home/liujinfu/anaconda3/bin]
+    arg [-L/home/liujinfu/anaconda3/condabin] ==> dir [/home/liujinfu/anaconda3/condabin]
+    arg [-L/usr/local/sbin] ==> dir [/usr/local/sbin]
+    arg [-L/usr/local/bin] ==> dir [/usr/local/bin]
+    arg [-L/usr/sbin] ==> dir [/usr/sbin]
+    arg [-L/usr/bin] ==> dir [/usr/bin]
+    arg [-L/sbin] ==> dir [/sbin]
+    arg [-L/bin] ==> dir [/bin]
+    arg [-L/usr/games] ==> dir [/usr/games]
+    arg [-L/usr/local/games] ==> dir [/usr/local/games]
+    arg [-L/snap/bin] ==> dir [/snap/bin]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+    arg [-L.] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_52b50.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/home/liujinfu/anaconda3/bin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/home/liujinfu/anaconda3/condabin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/usr/local/sbin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/bin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/sbin/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/sbin/../lib] ==> [/lib]
+  collapse library dir [/bin/../lib] ==> [/lib]
+  collapse library dir [/usr/games/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/games/../lib] ==> [/usr/local/lib]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/home/liujinfu/anaconda3/bin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/home/liujinfu/anaconda3/condabin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/usr/local/sbin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/bin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/sbin/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/sbin/../lib] ==> [/lib]
+  collapse library dir [/bin/../lib] ==> [/lib]
+  collapse library dir [/usr/games/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/games/../lib] ==> [/usr/local/lib]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11.3/bin] ==> [/usr/local/cuda-11.3/bin]
+  collapse library dir [/usr/local/cuda-11.3/bin] ==> [/usr/local/cuda-11.3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/bin] ==> [/home/liujinfu/anaconda3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/condabin] ==> [/home/liujinfu/anaconda3/condabin]
+  collapse library dir [/usr/local/sbin] ==> [/usr/local/sbin]
+  collapse library dir [/usr/local/bin] ==> [/usr/local/bin]
+  collapse library dir [/usr/sbin] ==> [/usr/sbin]
+  collapse library dir [/usr/bin] ==> [/usr/bin]
+  collapse library dir [/sbin] ==> [/sbin]
+  collapse library dir [/bin] ==> [/bin]
+  collapse library dir [/usr/games] ==> [/usr/games]
+  collapse library dir [/usr/local/games] ==> [/usr/local/games]
+  collapse library dir [/snap/bin] ==> [/snap/bin]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/usr/local/cuda-11.3/bin] ==> [/usr/local/cuda-11.3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/bin] ==> [/home/liujinfu/anaconda3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/condabin] ==> [/home/liujinfu/anaconda3/condabin]
+  collapse library dir [/usr/local/sbin] ==> [/usr/local/sbin]
+  collapse library dir [/usr/local/bin] ==> [/usr/local/bin]
+  collapse library dir [/usr/sbin] ==> [/usr/sbin]
+  collapse library dir [/usr/bin] ==> [/usr/bin]
+  collapse library dir [/sbin] ==> [/sbin]
+  collapse library dir [/bin] ==> [/bin]
+  collapse library dir [/usr/games] ==> [/usr/games]
+  collapse library dir [/usr/local/games] ==> [/usr/local/games]
+  collapse library dir [/snap/bin] ==> [/snap/bin]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/liujinfu/anaconda3/lib;/usr/local/lib;/usr/lib;/lib;/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/usr/local/cuda-11.3/bin;/home/liujinfu/anaconda3/bin;/home/liujinfu/anaconda3/condabin;/usr/local/sbin;/usr/local/bin;/usr/sbin;/usr/bin;/sbin;/bin;/usr/games;/usr/local/games;/snap/bin]
+  implicit fwks: []
+
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+Compiler: /usr/local/cuda/bin/nvcc 
+Build flags: 
+Id flags:  -v;--keep;--keep-dir;tmp
+
+The output was:
+0
+#$ _NVVM_BRANCH_=nvvm
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/usr/local/cuda/bin
+#$ _THERE_=/usr/local/cuda/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_DIR_=targets/x86_64-linux
+#$ TOP=/usr/local/cuda/bin/..
+#$ NVVMIR_LIBRARY_DIR=/usr/local/cuda/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/usr/local/cuda/bin/../lib:/usr/local/cuda-11.3/bin:/usr/local/cuda-11.3/bin:/home/liujinfu/anaconda3/bin:/home/liujinfu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib:/usr/local/cuda11.3/lib64:/usr/local/cuda-11.3/bin:/home/liujinfu/anaconda3/bin:/home/liujinfu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib:/usr/local/cuda11.3/lib64
+#$ PATH=/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/usr/local/cuda-11.3/bin:/usr/local/cuda-11.3/bin:/home/liujinfu/anaconda3/bin:/home/liujinfu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+#$ INCLUDES="-I/usr/local/cuda/bin/../targets/x86_64-linux/include"  
+#$ LIBRARIES=  "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm tmp/a_dlink.reg.c
+#$ gcc -D__CUDA_ARCH__=520 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=109 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=3 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp1.ii" 
+#$ cicc --c++14 --gnu_version=90400 --orig_src_file_name "CMakeCUDACompilerId.cu" --allow_managed   -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"
+#$ ptxas -arch=sm_52 -m64  "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" 
+#$ fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" 
+#$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=109 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=3 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp4.ii" 
+#$ cudafe++ --c++14 --gnu_version=90400 --orig_src_file_name "CMakeCUDACompilerId.cu" --allow_managed  --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" 
+#$ gcc -D__CUDA_ARCH__=520 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"   -m64 "tmp/CMakeCUDACompilerId.cudafe1.cpp" -o "tmp/CMakeCUDACompilerId.o" 
+#$ nvlink --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -lcudadevrt  -o "tmp/a_dlink.sm_52.cubin"
+#$ fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" 
+#$ gcc -c -x c++ -DFATBINFILE="\"tmp/a_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"tmp/a_dlink.reg.c\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=109 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=3 -m64 "/usr/local/cuda/bin/crt/link.stub" -o "tmp/a_dlink.o" 
+#$ g++ -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" 
+
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.out"
+
+The CUDA compiler identification is NVIDIA, found in "/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/3.16.3/CompilerIdCUDA/a.out"
+
+Parsed CUDA nvcc implicit link information from above output:
+  found 'PATH=' string: [/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/usr/local/cuda-11.3/bin:/usr/local/cuda-11.3/bin:/home/liujinfu/anaconda3/bin:/home/liujinfu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin]
+  found 'LIBRARIES=' string: ["-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"]
+  considering line: [#$ rm tmp/a_dlink.reg.c]
+  considering line: [gcc -D__CUDA_ARCH__=520 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=109 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=3 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+  considering line: [cicc --c++14 --gnu_version=90400 --orig_src_file_name "CMakeCUDACompilerId.cu" --allow_managed   -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+  considering line: [ptxas -arch=sm_52 -m64  "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" ]
+  considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+  considering line: [gcc -E -x c++ -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=109 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=3 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+  considering line: [cudafe++ --c++14 --gnu_version=90400 --orig_src_file_name "CMakeCUDACompilerId.cu" --allow_managed  --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+  considering line: [gcc -D__CUDA_ARCH__=520 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"   -m64 "tmp/CMakeCUDACompilerId.cudafe1.cpp" -o "tmp/CMakeCUDACompilerId.o" ]
+  considering line: [nvlink --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -lcudadevrt  -o "tmp/a_dlink.sm_52.cubin"]
+    ignoring nvlink line
+  considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+  considering line: [gcc -c -x c++ -DFATBINFILE="\"tmp/a_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"tmp/a_dlink.reg.c\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=109 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=3 -m64 "/usr/local/cuda/bin/crt/link.stub" -o "tmp/a_dlink.o" ]
+  considering line: [g++ -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+    extracted link line: [g++ -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+  considering line: []
+  extracted link launcher name: [g++]
+  found link launcher absolute path: [/usr/bin/g++]
+
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line: [cuda-fake-ld g++ -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+    arg [cuda-fake-ld] ==> ignore
+    arg [g++] ==> ignore
+    arg [-m64] ==> ignore
+    arg [-Wl,--start-group] ==> ignore
+    arg [tmp/a_dlink.o] ==> ignore
+    arg [tmp/CMakeCUDACompilerId.o] ==> ignore
+    arg [-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs] ==> dir [/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs]
+    arg [-L/usr/local/cuda/bin/../targets/x86_64-linux/lib] ==> dir [/usr/local/cuda/bin/../targets/x86_64-linux/lib]
+    arg [-lcudadevrt] ==> lib [cudadevrt]
+    arg [-lcudart_static] ==> lib [cudart_static]
+    arg [-lrt] ==> lib [rt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ldl] ==> lib [dl]
+    arg [-Wl,--end-group] ==> ignore
+    arg [-o] ==> ignore
+    arg [a.out] ==> ignore
+  collapse library dir [/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs] ==> [/usr/local/cuda/targets/x86_64-linux/lib/stubs]
+  collapse library dir [/usr/local/cuda/bin/../targets/x86_64-linux/lib] ==> [/usr/local/cuda/targets/x86_64-linux/lib]
+  implicit libs: [cudadevrt;cudart_static;rt;pthread;dl]
+  implicit dirs: [/usr/local/cuda/targets/x86_64-linux/lib/stubs;/usr/local/cuda/targets/x86_64-linux/lib]
+  implicit fwks: []
+
+
+Parsed CUDA nvcc include information from above output:
+  found 'PATH=' string: [/usr/local/cuda/bin/../nvvm/bin:/usr/local/cuda/bin:/usr/local/cuda-11.3/bin:/usr/local/cuda-11.3/bin:/home/liujinfu/anaconda3/bin:/home/liujinfu/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin]
+  found 'LIBRARIES=' string: ["-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"]
+  considering line: [#$ rm tmp/a_dlink.reg.c]
+  considering line: [gcc -D__CUDA_ARCH__=520 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=109 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=3 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+  considering line: [cicc --c++14 --gnu_version=90400 --orig_src_file_name "CMakeCUDACompilerId.cu" --allow_managed   -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+  considering line: [ptxas -arch=sm_52 -m64  "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" ]
+  considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+  considering line: [gcc -E -x c++ -D__CUDACC__ -D__NVCC__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=109 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=3 -include "cuda_runtime.h" -m64 "CMakeCUDACompilerId.cu" -o "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+  considering line: [cudafe++ --c++14 --gnu_version=90400 --orig_src_file_name "CMakeCUDACompilerId.cu" --allow_managed  --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+  considering line: [gcc -D__CUDA_ARCH__=520 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"   -m64 "tmp/CMakeCUDACompilerId.cudafe1.cpp" -o "tmp/CMakeCUDACompilerId.o" ]
+  considering line: [nvlink --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.o"  -lcudadevrt  -o "tmp/a_dlink.sm_52.cubin"]
+    ignoring nvlink line
+  considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+  considering line: [gcc -c -x c++ -DFATBINFILE="\"tmp/a_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"tmp/a_dlink.reg.c\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-I/usr/local/cuda/bin/../targets/x86_64-linux/include"    -D__CUDACC_VER_MAJOR__=11 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=109 -D__CUDA_API_VER_MAJOR__=11 -D__CUDA_API_VER_MINOR__=3 -m64 "/usr/local/cuda/bin/crt/link.stub" -o "tmp/a_dlink.o" ]
+  considering line: [g++ -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+    extracted link line: [g++ -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+  considering line: []
+  extracted link launcher name: [g++]
+  found link launcher absolute path: [/usr/bin/g++]
+  found 'INCLUDES=' string: ["-I/usr/local/cuda/bin/../targets/x86_64-linux/include"  ]
+
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line: [cuda-fake-ld g++ -m64 -Wl,--start-group "tmp/a_dlink.o" "tmp/CMakeCUDACompilerId.o"   "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs" "-L/usr/local/cuda/bin/../targets/x86_64-linux/lib"  -lcudadevrt  -lcudart_static  -lrt -lpthread  -ldl  -Wl,--end-group -o "a.out" ]
+    arg [cuda-fake-ld] ==> ignore
+    arg [g++] ==> ignore
+    arg [-m64] ==> ignore
+    arg [-Wl,--start-group] ==> ignore
+    arg [tmp/a_dlink.o] ==> ignore
+    arg [tmp/CMakeCUDACompilerId.o] ==> ignore
+    arg [-L/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs] ==> dir [/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs]
+    arg [-L/usr/local/cuda/bin/../targets/x86_64-linux/lib] ==> dir [/usr/local/cuda/bin/../targets/x86_64-linux/lib]
+    arg [-lcudadevrt] ==> lib [cudadevrt]
+    arg [-lcudart_static] ==> lib [cudart_static]
+    arg [-lrt] ==> lib [rt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ldl] ==> lib [dl]
+    arg [-Wl,--end-group] ==> ignore
+    arg [-o] ==> ignore
+    arg [a.out] ==> ignore
+  collapse library dir [/usr/local/cuda/bin/../targets/x86_64-linux/lib/stubs] ==> [/usr/local/cuda/targets/x86_64-linux/lib/stubs]
+  collapse library dir [/usr/local/cuda/bin/../targets/x86_64-linux/lib] ==> [/usr/local/cuda/targets/x86_64-linux/lib]
+  implicit libs: [cudadevrt;cudart_static;rt;pthread;dl]
+  implicit dirs: [/usr/local/cuda/targets/x86_64-linux/lib/stubs;/usr/local/cuda/targets/x86_64-linux/lib]
+  implicit fwks: []
+
+
+Determining if the CUDA compiler works passed with the following output:
+Change Dir: /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_63498/fast && /usr/bin/make -f CMakeFiles/cmTC_63498.dir/build.make CMakeFiles/cmTC_63498.dir/build
+make[1]: Entering directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_63498.dir/main.cu.o
+/usr/local/cuda/bin/nvcc     -x cu -c /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp/main.cu -o CMakeFiles/cmTC_63498.dir/main.cu.o
+Linking CUDA executable cmTC_63498
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63498.dir/link.txt --verbose=1
+/usr/bin/g++   CMakeFiles/cmTC_63498.dir/main.cu.o -o cmTC_63498  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+make[1]: Leaving directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CUDA compiler ABI info compiled with the following output:
+Change Dir: /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99dfa/fast && /usr/bin/make -f CMakeFiles/cmTC_99dfa.dir/build.make CMakeFiles/cmTC_99dfa.dir/build
+make[1]: Entering directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o
+/usr/local/cuda/bin/nvcc    -Xcompiler=-v -x cu -c /usr/share/cmake-3.16/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o
+Using built-in specs.
+COLLECT_GCC=gcc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=3' '-D' '__CUDACC_VER_BUILD__=109' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=3' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00006d3c_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=11 -D __CUDACC_VER_MINOR__=3 -D __CUDACC_VER_BUILD__=109 -D __CUDA_API_VER_MAJOR__=11 -D __CUDA_API_VER_MINOR__=3 -include cuda_runtime.h /usr/share/cmake-3.16/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00006d3c_00000000-7_CMakeCUDACompilerABI.cpp1.ii -m64 -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda/bin/../targets/x86_64-linux/include
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=3' '-D' '__CUDACC_VER_BUILD__=109' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=3' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00006d3c_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=3' '-D' '__CUDACC_VER_BUILD__=109' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=3' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00006d3c_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=11 -D __CUDACC_VER_MINOR__=3 -D __CUDACC_VER_BUILD__=109 -D __CUDA_API_VER_MAJOR__=11 -D __CUDA_API_VER_MINOR__=3 -include cuda_runtime.h /usr/share/cmake-3.16/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00006d3c_00000000-5_CMakeCUDACompilerABI.cpp4.ii -m64 -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda/bin/../targets/x86_64-linux/include
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=3' '-D' '__CUDACC_VER_BUILD__=109' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=3' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00006d3c_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_00006d3c_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpbase tmpxft_00006d3c_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -m64 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2wKPzu.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda/bin/../targets/x86_64-linux/include
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include --64 -o CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o /tmp/cc2wKPzu.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64'
+Linking CUDA executable cmTC_99dfa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99dfa.dir/link.txt --verbose=1
+/usr/bin/g++  -v CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o -o cmTC_99dfa  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99dfa' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cciUu21b.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_99dfa /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.3/bin -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99dfa' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CUDA implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/cuda/bin/../targets/x86_64-linux/include]
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/cuda/bin/../targets/x86_64-linux/include] ==> [/usr/local/cuda/targets/x86_64-linux/include]
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/cuda/targets/x86_64-linux/include;/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CUDA implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_99dfa/fast && /usr/bin/make -f CMakeFiles/cmTC_99dfa.dir/build.make CMakeFiles/cmTC_99dfa.dir/build]
+  ignore line: [make[1]: Entering directory '/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CUDA object CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o]
+  ignore line: [/usr/local/cuda/bin/nvcc    -Xcompiler=-v -x cu -c /usr/share/cmake-3.16/Modules/CMakeCUDACompilerABI.cu -o CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=gcc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=3' '-D' '__CUDACC_VER_BUILD__=109' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=3' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00006d3c_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D CUDA_DOUBLE_MATH_FUNCTIONS -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=11 -D __CUDACC_VER_MINOR__=3 -D __CUDACC_VER_BUILD__=109 -D __CUDA_API_VER_MAJOR__=11 -D __CUDA_API_VER_MINOR__=3 -include cuda_runtime.h /usr/share/cmake-3.16/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00006d3c_00000000-7_CMakeCUDACompilerABI.cpp1.ii -m64 -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/cuda/bin/../targets/x86_64-linux/include]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-E' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=3' '-D' '__CUDACC_VER_BUILD__=109' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=3' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00006d3c_00000000-7_CMakeCUDACompilerABI.cpp1.ii' '-mtune=generic' '-march=x86-64']
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=gcc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=3' '-D' '__CUDACC_VER_BUILD__=109' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=3' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00006d3c_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -E -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDACC__ -D __NVCC__ -D __CUDACC_VER_MAJOR__=11 -D __CUDACC_VER_MINOR__=3 -D __CUDACC_VER_BUILD__=109 -D __CUDA_API_VER_MAJOR__=11 -D __CUDA_API_VER_MINOR__=3 -include cuda_runtime.h /usr/share/cmake-3.16/Modules/CMakeCUDACompilerABI.cu -o /tmp/tmpxft_00006d3c_00000000-5_CMakeCUDACompilerABI.cpp4.ii -m64 -mtune=generic -march=x86-64 -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/cuda/bin/../targets/x86_64-linux/include]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-E' '-D' '__CUDACC__' '-D' '__NVCC__' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-D' '__CUDACC_VER_MAJOR__=11' '-D' '__CUDACC_VER_MINOR__=3' '-D' '__CUDACC_VER_BUILD__=109' '-D' '__CUDA_API_VER_MAJOR__=11' '-D' '__CUDA_API_VER_MINOR__=3' '-include' 'cuda_runtime.h' '-m64' '-o' '/tmp/tmpxft_00006d3c_00000000-5_CMakeCUDACompilerABI.cpp4.ii' '-mtune=generic' '-march=x86-64']
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=gcc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D __CUDA_ARCH__=520 -D CUDA_DOUBLE_MATH_FUNCTIONS /tmp/tmpxft_00006d3c_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -quiet -dumpbase tmpxft_00006d3c_00000000-6_CMakeCUDACompilerABI.cudafe1.cpp -m64 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2wKPzu.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/cuda/bin/../targets/x86_64-linux/include]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v -I /usr/local/cuda/bin/../targets/x86_64-linux/include --64 -o CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o /tmp/cc2wKPzu.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' '__CUDA_ARCH__=520' '-c' '-D' 'CUDA_DOUBLE_MATH_FUNCTIONS' '-v' '-I' '/usr/local/cuda/bin/../targets/x86_64-linux/include' '-m64' '-o' 'CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CUDA executable cmTC_99dfa]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99dfa.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++  -v CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o -o cmTC_99dfa  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib" -lcudadevrt -lcudart_static -lrt -lpthread -ldl]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/home/liujinfu/anaconda3/bin/../lib/:/home/liujinfu/anaconda3/condabin/../lib/:/usr/local/sbin/../lib/:/usr/local/bin/../lib/:/usr/sbin/../lib/:/usr/bin/../lib/:/sbin/../lib/:/bin/../lib/:/usr/games/../lib/:/usr/local/games/../lib/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/local/cuda-11.3/bin/:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:/usr/local/cuda-11.3/bin/:/home/liujinfu/anaconda3/bin/:/home/liujinfu/anaconda3/condabin/:/usr/local/sbin/:/usr/local/bin/:/usr/sbin/:/usr/bin/:/sbin/:/bin/:/usr/games/:/usr/local/games/:/snap/bin/:/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/:./:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99dfa' '-L/usr/local/cuda/targets/x86_64-linux/lib/stubs' '-L/usr/local/cuda/targets/x86_64-linux/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cciUu21b.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_99dfa /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda/targets/x86_64-linux/lib/stubs -L/usr/local/cuda/targets/x86_64-linux/lib -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/home/liujinfu/anaconda3/bin/../lib -L/home/liujinfu/anaconda3/condabin/../lib -L/usr/local/sbin/../lib -L/usr/local/bin/../lib -L/usr/sbin/../lib -L/usr/bin/../lib -L/sbin/../lib -L/bin/../lib -L/usr/games/../lib -L/usr/local/games/../lib -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/local/cuda-11.3/bin -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L/usr/local/cuda-11.3/bin -L/home/liujinfu/anaconda3/bin -L/home/liujinfu/anaconda3/condabin -L/usr/local/sbin -L/usr/local/bin -L/usr/sbin -L/usr/bin -L/sbin -L/bin -L/usr/games -L/usr/local/games -L/snap/bin -L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib -L. -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o -lcudadevrt -lcudart_static -lrt -lpthread -ldl -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cciUu21b.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_99dfa] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/local/cuda/targets/x86_64-linux/lib/stubs] ==> dir [/usr/local/cuda/targets/x86_64-linux/lib/stubs]
+    arg [-L/usr/local/cuda/targets/x86_64-linux/lib] ==> dir [/usr/local/cuda/targets/x86_64-linux/lib]
+    arg [-L/home/liujinfu/anaconda3/bin/../lib] ==> dir [/home/liujinfu/anaconda3/bin/../lib]
+    arg [-L/home/liujinfu/anaconda3/condabin/../lib] ==> dir [/home/liujinfu/anaconda3/condabin/../lib]
+    arg [-L/usr/local/sbin/../lib] ==> dir [/usr/local/sbin/../lib]
+    arg [-L/usr/local/bin/../lib] ==> dir [/usr/local/bin/../lib]
+    arg [-L/usr/sbin/../lib] ==> dir [/usr/sbin/../lib]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/sbin/../lib] ==> dir [/sbin/../lib]
+    arg [-L/bin/../lib] ==> dir [/bin/../lib]
+    arg [-L/usr/games/../lib] ==> dir [/usr/games/../lib]
+    arg [-L/usr/local/games/../lib] ==> dir [/usr/local/games/../lib]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib]
+    arg [-L/home/liujinfu/anaconda3/bin/../lib] ==> dir [/home/liujinfu/anaconda3/bin/../lib]
+    arg [-L/home/liujinfu/anaconda3/condabin/../lib] ==> dir [/home/liujinfu/anaconda3/condabin/../lib]
+    arg [-L/usr/local/sbin/../lib] ==> dir [/usr/local/sbin/../lib]
+    arg [-L/usr/local/bin/../lib] ==> dir [/usr/local/bin/../lib]
+    arg [-L/usr/sbin/../lib] ==> dir [/usr/sbin/../lib]
+    arg [-L/usr/bin/../lib] ==> dir [/usr/bin/../lib]
+    arg [-L/sbin/../lib] ==> dir [/sbin/../lib]
+    arg [-L/bin/../lib] ==> dir [/bin/../lib]
+    arg [-L/usr/games/../lib] ==> dir [/usr/games/../lib]
+    arg [-L/usr/local/games/../lib] ==> dir [/usr/local/games/../lib]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/local/cuda-11.3/bin] ==> dir [/usr/local/cuda-11.3/bin]
+    arg [-L/usr/local/cuda-11.3/bin] ==> dir [/usr/local/cuda-11.3/bin]
+    arg [-L/home/liujinfu/anaconda3/bin] ==> dir [/home/liujinfu/anaconda3/bin]
+    arg [-L/home/liujinfu/anaconda3/condabin] ==> dir [/home/liujinfu/anaconda3/condabin]
+    arg [-L/usr/local/sbin] ==> dir [/usr/local/sbin]
+    arg [-L/usr/local/bin] ==> dir [/usr/local/bin]
+    arg [-L/usr/sbin] ==> dir [/usr/sbin]
+    arg [-L/usr/bin] ==> dir [/usr/bin]
+    arg [-L/sbin] ==> dir [/sbin]
+    arg [-L/bin] ==> dir [/bin]
+    arg [-L/usr/games] ==> dir [/usr/games]
+    arg [-L/usr/local/games] ==> dir [/usr/local/games]
+    arg [-L/snap/bin] ==> dir [/snap/bin]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/local/cuda-11.3/bin] ==> dir [/usr/local/cuda-11.3/bin]
+    arg [-L/home/liujinfu/anaconda3/bin] ==> dir [/home/liujinfu/anaconda3/bin]
+    arg [-L/home/liujinfu/anaconda3/condabin] ==> dir [/home/liujinfu/anaconda3/condabin]
+    arg [-L/usr/local/sbin] ==> dir [/usr/local/sbin]
+    arg [-L/usr/local/bin] ==> dir [/usr/local/bin]
+    arg [-L/usr/sbin] ==> dir [/usr/sbin]
+    arg [-L/usr/bin] ==> dir [/usr/bin]
+    arg [-L/sbin] ==> dir [/sbin]
+    arg [-L/bin] ==> dir [/bin]
+    arg [-L/usr/games] ==> dir [/usr/games]
+    arg [-L/usr/local/games] ==> dir [/usr/local/games]
+    arg [-L/snap/bin] ==> dir [/snap/bin]
+    arg [-L/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+    arg [-L.] ==> ignore
+    arg [-L.] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_99dfa.dir/CMakeCUDACompilerABI.cu.o] ==> ignore
+    arg [-lcudadevrt] ==> lib [cudadevrt]
+    arg [-lcudart_static] ==> lib [cudart_static]
+    arg [-lrt] ==> lib [rt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ldl] ==> lib [dl]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/local/cuda/targets/x86_64-linux/lib/stubs] ==> [/usr/local/cuda/targets/x86_64-linux/lib/stubs]
+  collapse library dir [/usr/local/cuda/targets/x86_64-linux/lib] ==> [/usr/local/cuda/targets/x86_64-linux/lib]
+  collapse library dir [/home/liujinfu/anaconda3/bin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/home/liujinfu/anaconda3/condabin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/usr/local/sbin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/bin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/sbin/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/sbin/../lib] ==> [/lib]
+  collapse library dir [/bin/../lib] ==> [/lib]
+  collapse library dir [/usr/games/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/games/../lib] ==> [/usr/local/lib]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/home/liujinfu/anaconda3/bin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/home/liujinfu/anaconda3/condabin/../lib] ==> [/home/liujinfu/anaconda3/lib]
+  collapse library dir [/usr/local/sbin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/bin/../lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/sbin/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/bin/../lib] ==> [/usr/lib]
+  collapse library dir [/sbin/../lib] ==> [/lib]
+  collapse library dir [/bin/../lib] ==> [/lib]
+  collapse library dir [/usr/games/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/games/../lib] ==> [/usr/local/lib]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib/../lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11.3/bin] ==> [/usr/local/cuda-11.3/bin]
+  collapse library dir [/usr/local/cuda-11.3/bin] ==> [/usr/local/cuda-11.3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/bin] ==> [/home/liujinfu/anaconda3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/condabin] ==> [/home/liujinfu/anaconda3/condabin]
+  collapse library dir [/usr/local/sbin] ==> [/usr/local/sbin]
+  collapse library dir [/usr/local/bin] ==> [/usr/local/bin]
+  collapse library dir [/usr/sbin] ==> [/usr/sbin]
+  collapse library dir [/usr/bin] ==> [/usr/bin]
+  collapse library dir [/sbin] ==> [/sbin]
+  collapse library dir [/bin] ==> [/bin]
+  collapse library dir [/usr/games] ==> [/usr/games]
+  collapse library dir [/usr/local/games] ==> [/usr/local/games]
+  collapse library dir [/snap/bin] ==> [/snap/bin]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/usr/local/cuda-11.3/bin] ==> [/usr/local/cuda-11.3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/bin] ==> [/home/liujinfu/anaconda3/bin]
+  collapse library dir [/home/liujinfu/anaconda3/condabin] ==> [/home/liujinfu/anaconda3/condabin]
+  collapse library dir [/usr/local/sbin] ==> [/usr/local/sbin]
+  collapse library dir [/usr/local/bin] ==> [/usr/local/bin]
+  collapse library dir [/usr/sbin] ==> [/usr/sbin]
+  collapse library dir [/usr/bin] ==> [/usr/bin]
+  collapse library dir [/sbin] ==> [/sbin]
+  collapse library dir [/bin] ==> [/bin]
+  collapse library dir [/usr/games] ==> [/usr/games]
+  collapse library dir [/usr/local/games] ==> [/usr/local/games]
+  collapse library dir [/snap/bin] ==> [/snap/bin]
+  collapse library dir [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib] ==> [/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [cudadevrt;cudart_static;rt;pthread;dl;stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/local/cuda/targets/x86_64-linux/lib/stubs;/usr/local/cuda/targets/x86_64-linux/lib;/home/liujinfu/anaconda3/lib;/usr/local/lib;/usr/lib;/lib;/home/liujinfu/Downloads/TensorRT-8.2.5.1/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/usr/local/cuda-11.3/bin;/home/liujinfu/anaconda3/bin;/home/liujinfu/anaconda3/condabin;/usr/local/sbin;/usr/local/bin;/usr/sbin;/usr/bin;/sbin;/bin;/usr/games;/usr/local/games;/snap/bin]
+  implicit fwks: []
+
+

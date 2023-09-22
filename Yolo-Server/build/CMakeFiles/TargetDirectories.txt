@@ -1,0 +1,4 @@
+/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/rebuild_cache.dir
+/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/edit_cache.dir
+/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/server.dir
+/home/liujinfu/Desktop/Yolo-Server/build/CMakeFiles/client.dir
