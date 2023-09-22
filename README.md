@@ -36,6 +36,9 @@ make
 <div align=center>
 <img src="https://github.com/liujf69/YoloV5-Server/blob/main/test_server.png"/>
 </div>
+<div align=center>
+<img src="https://github.com/liujf69/YoloV5-Server/blob/main/show.png"/>
+</div>
 
 # Contact
 For any questions, feel free to contact: ```liujf69@mail2.sysu.edu.cn```
