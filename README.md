@@ -21,7 +21,7 @@
 
 # Prerequisites
 You must install dependencies like ```Opencv, TensorRT, Cuda``` based on manual compilation. <br />
-You must refer to Project [TensorRT-Demo](https://github.com/liujf69/TensorRT-Demo/tree/master/TRT_YoloV5) to serialize your own inference engine locally. <br />
+You must refer to project [TensorRT-Demo](https://github.com/liujf69/TensorRT-Demo/tree/master/TRT_YoloV5) to serialize your own inference engine locally. <br />
 
 # Build and Run
 ```
