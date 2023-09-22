@@ -11,7 +11,7 @@
 5. Build a thread pool and the data recv by two reading threads will be sent to the worker thread for processing. <br />
 6. The worker thread loads the YoloV5 engine for inference based on TensorRT. <br />
 
-# 中文描述
+# Chinese Description
 1. 基于 C/S 模型来构建 TCP 服务器和 TCP 客户端。<br />
 2. 使用 Epoll 来监控服务器和客户端之间的连接。<br />
 3. 服务器和客户端约定使用相同的数据协议，头部分别使用 4 个字节来表示图片的宽，高和大小。<br />
