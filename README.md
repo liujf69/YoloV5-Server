@@ -4,7 +4,7 @@
 </div>
 
 # Project Description
-1. Build TCP server and TCP client based on C/S model. <br />
+1. Build tcp server and tcp client based on C/S model. <br />
 2. Use Epoll to monitor the socket connections between server and client. <br />
 3. The C/S use the same protocol to send and receive data, which uses four bytes to represent the width, height and size of images. <br />
 4. Create two reading threads to receive the data sent by clients and use the least connections algorithm for load balance. <br />
