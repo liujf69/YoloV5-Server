@@ -20,7 +20,7 @@
 6. 工作线程基于 TensorRT 推理框架来加载 YoloV5 推理引擎进行模型推理，并将推理结果发送回客户端。<br />
 
 # Prerequisites
-You must install dependencies like ```Opencv, TensorRT, Cuda``` based on manual compilation. <br />
+You must install dependencies like ```OpenCV, TensorRT, Cuda``` based on manual compilation. <br />
 You must refer to project [TensorRT-Demo](https://github.com/liujf69/TensorRT-Demo/tree/master/TRT_YoloV5) to serialize your own inference engine locally. <br />
 
 # Build and Run
