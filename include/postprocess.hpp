@@ -22,6 +22,7 @@ cv::Rect get_rect(cv::Mat& img, float bbox[4]){
     float l, r, t, b;
     float r_w = kInputW / (img.cols * 1.0); // kInputW = 640
     float r_h = kInputH / (img.rows * 1.0);
+    // 根据检测框中心点坐标和检测框的宽高计算左上角和右下角的顶点坐标
     if(r_h > r_w){
         l = bbox[0] - bbox[2] / 2.f; // left_top_x
         r = bbox[0] + bbox[2] / 2.f; // left_top_y
